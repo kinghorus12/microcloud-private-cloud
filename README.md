@@ -13,7 +13,7 @@ Production-Grade Private Cloud from Bare Metal
 
  Overview
 
-> **[ Insert screenshot: Mission Control Grafana dashboard — live ]**
+> ![Mission Control Dashboard](dashboard.png)
 
 This project transforms three bare-metal **Cisco UCS C220 M5** rack servers into a fully functional **Infrastructure-as-a-Service (IaaS)** platform using **Canonical MicroCloud** (LXD + MicroCeph + MicroOVN). It provides the same core capabilities as a public cloud — on-demand virtual machines and containers, resilient distributed storage, and isolated virtual networks — running entirely on self-hosted, open-source infrastructure.
 
@@ -100,16 +100,14 @@ The cluster is monitored through a custom **"Mission Control"** Grafana dashboar
 
 The importable dashboard definition is included: [`mission-control-dashboard.json`](mission-control-dashboard.json)
 
-> **[ Insert screenshot: dashboard heartbeat + fleet panels ]**
-
 ---
 
-## 📚 Documentation
+  Documentation
 
 This repository includes complete, reproducible documentation:
 
-- 📖 **[Project Report](project-report.pdf)** — full architecture and 7-phase deployment, reproducible on comparable hardware
-- 🔧 **[Troubleshooting Guide](troubleshooting-guide.pdf)** — 16 real issues with symptoms, root causes, and fixes
+-   **[Project Report](project-report.pdf)** — full architecture and 7-phase deployment, reproducible on comparable hardware
+-   **[Troubleshooting Guide](troubleshooting-guide.pdf)** — 16 real issues with symptoms, root causes, and fixes
 
 ---
 
