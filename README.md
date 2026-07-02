@@ -77,7 +77,7 @@ I built this end-to-end: from RAID controller configuration and OS installation,
 
  Key Challenges Solved
 
-A few of the real problems I diagnosed and resolved during this build (full details in the [Troubleshooting Guide](docs/troubleshooting-guide.pdf)):
+A few of the real problems I diagnosed and resolved during this build (full details in the [Troubleshooting Guide](troubleshooting-guide.pdf)):
 
 | Challenge | Resolution |
 |-----------|-----------|
@@ -98,7 +98,7 @@ The cluster is monitored through a custom **"Mission Control"** Grafana dashboar
 - **Per-node vitals** — CPU, RAM, disk, and load gauges with dynamic thresholds
 - **Throughput trends** — network receive/transmit and memory pressure over time
 
-The importable dashboard definition is included: [`dashboards/mission-control-dashboard.json`](dashboards/mission-control-dashboard.json)
+The importable dashboard definition is included: [`mission-control-dashboard.json`](mission-control-dashboard.json)
 
 > **[ Insert screenshot: dashboard heartbeat + fleet panels ]**
 
@@ -108,8 +108,8 @@ The importable dashboard definition is included: [`dashboards/mission-control-da
 
 This repository includes complete, reproducible documentation:
 
-- 📖 **[Project Report](docs/project-report.pdf)** — full architecture and 7-phase deployment, reproducible on comparable hardware
-- 🔧 **[Troubleshooting Guide](docs/troubleshooting-guide.pdf)** — 16 real issues with symptoms, root causes, and fixes
+- 📖 **[Project Report](project-report.pdf)** — full architecture and 7-phase deployment, reproducible on comparable hardware
+- 🔧 **[Troubleshooting Guide](troubleshooting-guide.pdf)** — 16 real issues with symptoms, root causes, and fixes
 
 ---
 
